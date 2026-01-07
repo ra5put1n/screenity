@@ -11,4 +11,4 @@ node_modules/
 .env.development
 .env.production
 .env.*.local
-build/
+build/extension.zip
