@@ -18,6 +18,7 @@ import root from "react-shadow";
 import styles from "!raw-loader!./styles/app.css";
 
 import ZoomContainer from "./utils/ZoomContainer";
+import ClickZoom from "./utils/ClickZoom";
 import BlurTool from "./utils/BlurTool";
 import CursorModes from "./utils/CursorModes";
 
@@ -228,6 +229,7 @@ const Wrapper = () => {
       )}
 
       {contentState.zoomEnabled && <ZoomContainer />}
+      {contentState.clickZoom && <ClickZoom />}
       <BlurTool />
       {contentState.showExtension || contentState.recording ? (
         <div>

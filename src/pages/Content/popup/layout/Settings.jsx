@@ -93,6 +93,14 @@ const Settings = () => {
               experimental={true}
             />
           )}
+        {contentState.recordingType != "camera" &&
+          !contentState.isSubscribed && (
+            <Switch
+              label={chrome.i18n.getMessage("clickZoomLabel") || "Auto-zoom on click"}
+              name="clickZoom"
+              value="clickZoom"
+            />
+          )}
       </Collapsible.Content>
     </Collapsible.Root>
   );

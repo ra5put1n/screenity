@@ -627,6 +627,10 @@
     "message": "Zoom to cursor",
     "description": "Zoom to point popup"
   },
+  "clickZoomLabel": {
+    "message": "Auto-zoom on click",
+    "description": "Auto-zoom on click toggle label"
+  },
   "stayInPagePopup": {
     "message": "Stay in the page when recording",
     "description": "Stay in page popup"
